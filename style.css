@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    margin: 0;
+    margin: 20px;
     font-family: Helvetica;
     background-color: #86A49E;
 }
@@ -9,9 +9,6 @@ div.header {
     font-family: helvetica;
     color: #eee;
     margin: 5px;
-    border: 5px;
-    border-radius: 10px 50px;
-    border-color: #C0A46A;
 }
 div.header h1 {
     float: left;
@@ -33,4 +30,14 @@ div.header h1 {
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+
+div.introPhoto img {
+    display: block;
+    width: 99%;
+    padding: 0px;
+    margin: 0px;
+    border: 5px solid white;
+    border-radius: 50px;
 }
