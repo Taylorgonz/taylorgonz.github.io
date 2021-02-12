@@ -25,7 +25,7 @@ class App extends React.Component {
         {title: 'Contact', path: '/contact'},
       ],
       home: {
-        title: 'Welcome',
+        title: 'Taylor Gonz',
         subTitle: 'Web Developer / Photographer',
         text: 'Check out my projects below'
       },
@@ -42,13 +42,13 @@ class App extends React.Component {
     <Router>
       <Container className="p-0" fluid={true}>
       
-      <Navbar className='Navbar' bg="transparent" expand="lg">
-        <Navbar.Brand>Taylor Gonz</Navbar.Brand>
+      <Navbar className='nav-color Navbar' bg="transparent" expand="lg">
+        <Navbar.Brand>Taylor Gonzales</Navbar.Brand>
         <Navbar.Toggle className='border-0' aria-controls="navbar-toggle" />
         <Navbar.Collapse id="navbar-toggle">
           <Nav className='ml-auto'>
-            <Link className="font-weight-bolder nav-link" to='/'> Home</Link>
-            <Link className="font-weight-bolder nav-link" to='/about'> About</Link>
+            <Link className="font-weight-bolder nav-link mr-4" to='/'> Home</Link>
+            <Link className="font-weight-bolder nav-link mr-4" to='/about'> About</Link>
             <Link className="font-weight-bolder nav-link" to='/contact'> Contact</Link>
 
           </Nav>
