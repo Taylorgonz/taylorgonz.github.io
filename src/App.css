@@ -16,13 +16,18 @@
   color: white;
 }
 
-.homeText {
+.heroRow {
   text-align: center;
   position: relative;
   bottom: 250px;
+}
+
+.homeText {
   color: #2d4e62;
   opacity: 80%;
 }
+
+
 
 
 
