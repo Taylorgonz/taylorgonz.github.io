@@ -8,23 +8,15 @@ import { CaretDown }from 'react-bootstrap-icons';
 
 function Hero(props) {
     return(
-        <Jumbotron className="jumbotron-fluid p-0"> 
-            <Container className="homeHeader" fluid={true}>
-                <Row className="heroRow d-flex align-items-center flex-column">
-
-                    <Col xs={12} sm={12} lg={12} xl={12}>
-                       {props.title && <h1 className="heroTitle display-2">{props.title}</h1> }
-                       {props.subTitle && <h3 className=" heroSubtitle display-4">{props.subTitle}</h3>}
-                       {props.text && <p className="arrowText">{props.text}</p>}
-                        <CaretDown className='arrow' size={50}/>
+        <Jumbotron className="bg-transparent jumbotron-fluid p-0"> 
+            <Container fluid={true}>
+                <Row className="border-bottom border-3 justify-content-center py-5">
+                    <Col   md={8} sm={12}>
+                       {props.title && <h1 className="heroTitle display-2 font-weight-bolder">{props.title}</h1> }
+                       {props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
+                       {props.text && <p className="lead font-weight-light">{props.text}</p>}
                     </Col>
                 </Row>
-                {/* <Row className="blinkerRow">
-                    <Col xs={12} sm={12} lg={12} xl={12}> 
-                        
-
-                    </Col>
-                </Row> */}
             </Container>
         </Jumbotron>
     );

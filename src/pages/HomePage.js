@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Hero from '../components/Hero';
+import HeroHome from '../components/HeroHome';
 
 function HomePage(props) {
     return (
-        <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
+        <HeroHome title={props.title} subTitle={props.subTitle} text={props.text}/>
 
     );
 }
