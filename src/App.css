@@ -15,7 +15,9 @@ body {
   position: relative;
 }
 
-
+.homePage {
+  margin-bottom: 40px;
+}
 .homeHeader {
   background-image: url(Images/header/header-photo.png);
   background-position: center center;
@@ -78,17 +80,6 @@ body {
 }
 
 
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* about me */
 
 .aboutMe {
@@ -109,6 +100,7 @@ body {
   padding: 10px;
 }
 
+/* contact page */
 .contactPage{
   
   background:#debe89;
@@ -139,15 +131,6 @@ button.button:visited {
   color: #fff
 }
 
-.success-msg {
-  color: #fff;
-  padding: 10px 15px;
-}
-
-.err-msg {
-  color: #f57d6d;
-  padding: 10px 15px;
-}
 
 form {
   width:auto;
@@ -158,13 +141,14 @@ img.navIcons {
   width: 80px;
 }
 
+/* footer */
 img.footer-navIcons {
   margin: 10px;
   width: 40px;
 }
 
 
-
+/* mobile sizing */
 @media screen and (max-width: 400px) {
 
   .heroSubtitle {

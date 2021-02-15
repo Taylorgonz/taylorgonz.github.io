@@ -8,7 +8,7 @@ import QuizApp from '../Images/project-pictures/quiz-screen.png'
 
 function HomePage(props) {
     return (
-        <div>
+        <div className='homePage'>
             <HeroHome title={props.title} subTitle={props.subTitle} text={props.text} />
             <h1 className="heroTitle text-center display-3 mb-5">Web Projects</h1>
             <Carousel/>

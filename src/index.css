@@ -15,9 +15,10 @@ code {
 .t-card {
   margin: 20px;
   cursor: pointer;
+
 }
 .t-card-image:hover{
-  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  box-shadow:3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284, #ccc 0px 19px 43px;
 	transform: translate3d(0px, -1px, 0px);
 }
 
@@ -25,7 +26,7 @@ code {
   border-radius: 10px;
   width: 400px;
   height: 220px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+  box-shadow: 3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284;
 }
 
 .t-card-info {
