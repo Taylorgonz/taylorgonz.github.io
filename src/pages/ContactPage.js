@@ -7,6 +7,7 @@ import youtube from '../Images/social-icons/youtube-1.png';
 import linkedin from '../Images/social-icons/linkedin-1.png'
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+
 // import Axios from 'Axios';
 
 
