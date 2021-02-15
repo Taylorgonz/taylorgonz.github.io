@@ -8,6 +8,7 @@ import Card from '../components/Card';
 import DinnerDate from '../Images/project-pictures/dinner-date.png'
 import WeatherApp from '../Images/project-pictures/weather-dashboard.png'
 import QuizApp from '../Images/project-pictures/quiz-screen.png'
+import DayPlanner from '../Images/project-pictures/scheduler.png'
 
 
 class Carousel extends React.Component {
@@ -19,7 +20,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Dinner Date',
-                    subTitle: 'Random dinner and movie app',
+                    subTitle: 'Random dinner and movie app (group Project)',
                     imgSrc: DinnerDate,
                     link: "https://thetiiiim.github.io/evening-planner/",
                     selected: false
@@ -38,6 +39,14 @@ class Carousel extends React.Component {
                     subTitle: 'Quiz game to check your coding knowledge!',
                     imgSrc: QuizApp,
                     link: "https://taylorgonz.github.io/code-quiz/",
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Day Planner',
+                    subTitle: 'Simple work day planner to keep you organized!',
+                    imgSrc: DayPlanner,
+                    link: "https://taylorgonz.github.io/Day-Planner/",
                     selected: false
                 },
             ]

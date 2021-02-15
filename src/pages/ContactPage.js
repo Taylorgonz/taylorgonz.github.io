@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 import instagram from '../Images/social-icons/instagram-1.png';
 import youtube from '../Images/social-icons/youtube-1.png';
 import linkedin from '../Images/social-icons/linkedin-1.png'
+import gitHub from '../Images/social-icons/github.png'
+
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
@@ -52,11 +54,13 @@ export default class contactPage extends React.Component {
                 </div>
                 <div className="socials justify-content-center offset-2 col-8">
 
-                    <a href="https://www.instagram.com/taylorgonz/" target="_blank"><img class="navIcons" src={instagram} alt="instagram icon."/></a>
+                    <a href="https://www.instagram.com/taylorgonz/" target="_blank"><img className="navIcons" src={instagram} alt="instagram icon."/></a>
 
-                    <a href="https://www.youtube.com/channel/UC7b6cmjQUEORq91I9f1sJWw?view_as=subscriber" target="_blank"><img class="navIcons" src={youtube} alt="youtube icon."/></a>
+                    <a href="https://www.youtube.com/channel/UC7b6cmjQUEORq91I9f1sJWw?view_as=subscriber" target="_blank"><img className="navIcons" src={youtube} alt="youtube icon."/></a>
 
-                    <a href="https://www.linkedin.com/in/taylorgonz/" target="_blank"><img class="navIcons" src={linkedin}  alt="linkedin icon."/></a>
+                    <a href="https://www.linkedin.com/in/taylorgonz/" target="_blank"><img className="navIcons" src={linkedin}  alt="linkedin icon."/></a>
+
+                    <a href="https://github.com/Taylorgonz" target="_blank"><img className="navIcons" src={gitHub}  alt="github icon."/></a>
                 </div>
             </div>
 

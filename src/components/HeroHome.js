@@ -14,7 +14,7 @@ function HeroHome(props) {
 
                     <Col xs={12} sm={12} lg={12} xl={12}>
                        {props.title && <h1 className="heroTitle display-2">{props.title}</h1> }
-                       {props.subTitle && <h3 className=" heroSubtitle display-4">{props.subTitle}</h3>}
+                       {props.subTitle && <p className=" heroSubtitle">{props.subTitle}</p>}
                        {props.text && <p className="arrowText font-weight-bold">{props.text}</p>}
                         <CaretDown className='arrow' size={50}/>
                     </Col>

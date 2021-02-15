@@ -47,6 +47,8 @@ body {
   font-family: 'Rokkitt', serif;
   padding: 0px;
   margin-bottom: 65%;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .arrowText {
@@ -132,7 +134,7 @@ button.button:hover {
   color: #fff
 }
 
-button.button:focus {
+button.button:visited {
   background-color: #5fc0c6;
   color: #fff
 }
@@ -155,3 +157,24 @@ img.navIcons {
   margin: 10px;
   width: 80px;
 }
+
+img.footer-navIcons {
+  margin: 10px;
+  width: 40px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  .heroSubtitle {
+    font-size: 40px;
+  }
+
+  .arrow {
+   margin-bottom: 35%;
+}
+
+}
+
+

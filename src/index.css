@@ -16,11 +16,15 @@ code {
   margin: 20px;
   cursor: pointer;
 }
+.t-card-image:hover{
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+	transform: translate3d(0px, -1px, 0px);
+}
 
 .t-card-image{
   border-radius: 10px;
-  width: 360px;
-  height: 200px;
+  width: 400px;
+  height: 220px;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
@@ -28,14 +32,37 @@ code {
   margin-top: 10px;
   min-height: 100px;
   font-family: 'Rokkitt', serif;
+  color: #007284;
 }
 
 .t-card-title {
   font-size: 24px;
   margin: 0px;
+  font-weight: bolder;
 }
 
 .t-card-sub-title {
   font-size: 16px;
   margin:0px;
+  
+}
+
+.t-card-link{
+  text-decoration:none;
+  color:#007284;
+  font-weight: bold;
+}
+
+.t-card-link:hover{
+  color: #cebe89;
+}
+
+@media screen and (max-width: 400px) {
+  .t-card-image{
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 0px 0px 3px 1px #ccc;
+  }
+
 }
