@@ -42,6 +42,7 @@ body {
   text-shadow: 3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284;
   padding: 0px;
   margin-top: auto;
+  letter-spacing: 4px;
 }
 .heroSubtitle {
   text-shadow: 2px 2px 1px #5fc0c6, 3px 3px #007284;
