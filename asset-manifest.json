@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.32286000.chunk.css",
-    "main.js": "/static/js/main.c8574b20.chunk.js",
-    "main.js.map": "/static/js/main.c8574b20.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b51346d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b51346d1.js.map",
+    "main.css": "/static/css/main.8227bd36.chunk.css",
+    "main.js": "/static/js/main.ab38765f.chunk.js",
+    "main.js.map": "/static/js/main.ab38765f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.26bb1695.js",
+    "runtime-main.js.map": "/static/js/runtime-main.26bb1695.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.a1ee3f50.chunk.js": "/static/js/2.a1ee3f50.chunk.js",
-    "static/js/2.a1ee3f50.chunk.js.map": "/static/js/2.a1ee3f50.chunk.js.map",
-    "static/js/3.dfe8c897.chunk.js": "/static/js/3.dfe8c897.chunk.js",
-    "static/js/3.dfe8c897.chunk.js.map": "/static/js/3.dfe8c897.chunk.js.map",
+    "static/js/2.fe4f50de.chunk.js": "/static/js/2.fe4f50de.chunk.js",
+    "static/js/2.fe4f50de.chunk.js.map": "/static/js/2.fe4f50de.chunk.js.map",
+    "static/js/3.79c4c377.chunk.js": "/static/js/3.79c4c377.chunk.js",
+    "static/js/3.79c4c377.chunk.js.map": "/static/js/3.79c4c377.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.32286000.chunk.css.map": "/static/css/main.32286000.chunk.css.map",
-    "static/js/2.a1ee3f50.chunk.js.LICENSE.txt": "/static/js/2.a1ee3f50.chunk.js.LICENSE.txt",
+    "static/css/main.8227bd36.chunk.css.map": "/static/css/main.8227bd36.chunk.css.map",
+    "static/js/2.fe4f50de.chunk.js.LICENSE.txt": "/static/js/2.fe4f50de.chunk.js.LICENSE.txt",
     "static/media/about-profile.741c9afb.png": "/static/media/about-profile.741c9afb.png",
+    "static/media/dinner-date.3ea1201a.png": "/static/media/dinner-date.3ea1201a.png",
+    "static/media/github.2c3c075e.png": "/static/media/github.2c3c075e.png",
     "static/media/App.css": "/static/media/header-photo.f7dc4a1e.png",
-    "static/media/instagram-1.7afe3437.png": "/static/media/instagram-1.7afe3437.png"
+    "static/media/instagram-1.7afe3437.png": "/static/media/instagram-1.7afe3437.png",
+    "static/media/quiz-screen.2cc0de3f.png": "/static/media/quiz-screen.2cc0de3f.png",
+    "static/media/scheduler.4cbb71cb.png": "/static/media/scheduler.4cbb71cb.png",
+    "static/media/weather-dashboard.ac84c915.png": "/static/media/weather-dashboard.ac84c915.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b51346d1.js",
+    "static/js/runtime-main.26bb1695.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.a1ee3f50.chunk.js",
-    "static/css/main.32286000.chunk.css",
-    "static/js/main.c8574b20.chunk.js"
+    "static/js/2.fe4f50de.chunk.js",
+    "static/css/main.8227bd36.chunk.css",
+    "static/js/main.ab38765f.chunk.js"
   ]
 }
