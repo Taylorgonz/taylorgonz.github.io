@@ -39,5 +39,10 @@ hello@taylorgonz.com
 <br>
 [Website](http://www.taylorgonz.com)
 
+## Socials
+- [Linked In](https://www.linkedin.com/in/taylorgonz/)
+- [GitHub](https://github.com/Taylorgonz)
+
+
 ## Licensing
  [General Public License](https://opensource.org/licenses/GPL-2.0)
