@@ -20,9 +20,10 @@ body {
 }
 .homeHeader {
   background-image: url(Images/header/header-photo.png);
-  background-position: center center;
+  background-position: center bottom;
+  /* background-size: 100%; */
   background-size: cover;
-  min-height: 100vh;
+  /* min-height: 90vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +41,7 @@ body {
   word-spacing: 10px;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 1px #debe89, 6px 6px #5fc0c6, 9px 9px #007284;
-  padding: 0px;
+  padding: 10px;
   margin-top: auto;
   letter-spacing: 4px;
 }
@@ -152,12 +153,20 @@ img.footer-navIcons {
 /* mobile sizing */
 @media screen and (max-width: 400px) {
 
+  .homeHeader {
+    background-repeat: no-repeat;
+    height: 85vh;
+  }
+  .heroTitle {
+    font-size: 40px;
+    margin-top: 20px;
+  }
   .heroSubtitle {
     font-size: 40px;
   }
 
   .arrow {
-   margin-bottom: 35%;
+   margin-bottom: 20px;
 }
 
 }
