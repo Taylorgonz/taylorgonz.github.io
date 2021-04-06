@@ -13,7 +13,7 @@ function HeroHome(props) {
                 <Row className="heroRow d-flex align-items-center flex-column">
 
                     <Col xs={12} sm={12} lg={12} xl={12}>
-                       {props.title && <h1 className="heroTitle display-2">{props.title}</h1> }
+                       {props.title && <h2 className="heroTitle display-3">{props.title}</h2> }
                        {props.subTitle && <p className=" heroSubtitle">{props.subTitle}</p>}
                        {props.text && <p className="arrowText font-weight-bold">{props.text}</p>}
                         <CaretDown className='arrow' size={50}/>
